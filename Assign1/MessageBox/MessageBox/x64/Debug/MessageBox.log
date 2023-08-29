@@ -1,0 +1,14 @@
+﻿  소스.c
+MSVCRTD.lib(init.obj) : error LNK2019: _CrtDbgReport_CRT_RTC_INIT 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(init.obj) : error LNK2019: _CrtDbgReportW_CRT_RTC_INITW 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(error.obj) : error LNK2019: strcpy_s"void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(error.obj) : error LNK2019: strcat_s"void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(error.obj) : error LNK2019: __stdio_common_vsprintf_s_vsprintf_s_l 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(error.obj) : error LNK2001: 확인할 수 없는 외부 기호 __C_specific_handler_noexcept
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: _wmakepath_s"int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: _wsplitpath_s"int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: wcscpy_s"int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: __vcrt_GetModuleFileNameW"struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: __vcrt_GetModuleHandleW"struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: __vcrt_LoadLibraryExW"struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\kangj\바탕 화면\역공학\MessageBox\x64\Debug\MessageBox.exe : fatal error LNK1120: 12개의 확인할 수 없는 외부 참조입니다.
